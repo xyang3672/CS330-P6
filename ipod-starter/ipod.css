@@ -1,0 +1,245 @@
+/* 
+	Global classes 
+					*/
+body {
+	background-image: url("images/iphoneOL.jpg");
+	background-repeat: no-repeat;
+	font-family: Arial, Helvetica, sans-serif
+}
+
+p {
+	margin: 5px;
+	font-size: 13.5px;
+}
+
+
+#screen {
+	height: 530px;
+	width: 300px;
+	margin: 105px 23px;
+}
+
+.head-bar {
+	background-color: #e6ccff;
+	color: white;
+ 	height: 45px;
+ 	width: 300px;
+	text-shadow: 2px 2px black;
+	text-align: center;
+}
+
+#Currents {
+	width: 150px;
+	height: 220px;
+	float: left;
+	text-align:center;
+}
+
+#Currents img{
+	width:90%;
+	padding-top:1em;
+	margin-bottom:7px;
+}
+
+#Telefone {
+	width: 150px;
+	height: 230px;
+	float: left;
+	text-align:center;
+}
+
+#Telefone img{
+	width:90%;
+	padding-top:1em;
+	margin-bottom:7px;
+}
+
+#CryBaby {
+	width: 150px;
+	height: 200px;
+	float: left;
+	text-align:center;
+}
+
+#CryBaby img{
+	width:90%;
+	padding-top:1em;
+	margin-bottom:7px;
+}
+
+#ColoringBook {
+	width: 150px;
+	height: 200px;
+	float: left;
+	text-align:center;
+}
+
+#ColoringBook img{
+	width:90%;
+	padding-top:1em;
+	margin-bottom:7px;
+}
+
+.head-bar img{
+	height:90%;
+	float:left;
+	padding-left: 5px;
+}
+
+#album-img {
+	width: 150px;
+	height: 160px;
+	float: left;
+	text-align:center;
+}
+
+#album-img img{
+	width:90%;
+	padding-top:1em;
+	margin-bottom:7px;
+}
+
+#info{
+	width: 150px;
+	height: 160px;
+	float: left;
+	position: relative;
+	top: 10px;
+}
+
+
+#song-list{
+	width: 300px;
+	height: 305px;
+	float: left;
+	text-align:center;
+}
+
+ol li{
+	border-style:groove;
+	margin: 7px;
+}
+
+
+/* 
+	Player 
+			*/
+.player-album-art {
+	width:80%;
+	padding-top:2em;
+	padding-left:1.75em;
+	margin-bottom:7px;
+}
+
+.player-song-info {
+	text-align: center;
+	color: #9932CC;
+	font-size:15px;
+	padding-bottom: 5px;
+}
+
+#player-song-name {
+	font-size:18px;
+	text-align: center;
+	color:grey;
+	font-weight: bold;
+}
+
+input[type=range] {
+	-webkit-appearance: none;
+	width: 250px;
+	background-color: #C0C0C0; 
+	margin-left: 25px;
+	position: relative;
+}
+
+input[type=range]::-webkit-slider-runnable-track {
+    height: 6px;
+    border-radius: 10px ;
+    box-shadow: 0 0.5px 0.5px #def3f8, inset 0 .1em .1em gray;
+}
+
+input[type=range]:focus {
+    outline: none;
+}
+
+input[type=range]::-webkit-slider-thumb {
+-webkit-appearance: none;
+  border: 1px solid #000000;
+  height: 15px;
+  width: 8px;
+  border-radius: 3px;
+  background: #ffffff;
+  cursor: pointer;
+  margin-top: -5px; 
+  box-shadow: 1px 1px 1px #000000, 0px 0px 1px #0d0d0d; 
+  /*adopted from CSS-tricks*/
+}
+
+.volume-bar {
+	display: inline-block;
+	position: relative;
+	bottom: 15px;
+}
+
+.volume-bar .icon{
+	display: inline-block;
+	width: 24px;
+	height: 6px;
+	margin: 2px;
+	border: solid 1px;
+}
+
+.volume-icon {
+	display: inline-block;
+	margin-left: 25px;
+}
+
+.volume-rocker {
+	padding: 0px;
+	width: 80px;
+	height: 18px;
+	margin: 0px 33px;
+	border-radius: 5px;
+	border: solid 1px #C0C0C0;
+	background: transparent;
+	box-shadow: 0 .1em .1em gray;
+}
+
+.volume-rocker:active {box-shadow: none;}
+
+.volume-rocker:focus {outline: none;}
+
+.player-controls{
+	margin-left:85px;
+	margin-bottom:10px;
+	margin-top:8px;
+	position:relative;
+	bottom:7px;
+}
+
+.player-controls button{
+	margin: 5px;
+	padding: 0px 4px;
+	border: solid 1px #C0C0C0;
+	background: white;
+	box-shadow: 0 .1em .1em gray;
+}
+
+.player-controls button:focus {outline: none;}
+
+.player-controls button.hidden {display: none;}
+
+.player-controls button:active {box-shadow: none;}
+
+#player-time {
+	margin-left: 18px;
+	font-size: 13px;
+	position: relative;
+}
+
+#time-total{
+	margin-left: 210px;
+	font-size: 13px;
+	position: relative;
+}
